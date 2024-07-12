@@ -1,6 +1,6 @@
 
 ## Diagrama de classes 
-'''
+´´´
 classDiagram
     class User {
         - String name
@@ -36,4 +36,4 @@ classDiagram
     User --> Feature
     User --> Car
     User --> New
-    '''
+   ´´´
