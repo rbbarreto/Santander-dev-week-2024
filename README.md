@@ -2,7 +2,7 @@
 Java RESFull API Criando para santander dev Week 
 
 ## Diagrama de classes 
-´´´
+´´´Mermaid
 classDiagram
     class User {
         - String name
