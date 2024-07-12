@@ -1,0 +1,1 @@
+https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.3.1&packaging=jar&jvmVersion=17&groupId=me.dio&artifactId=Santander-dev-week-2024&name=Santander-dev-week-2024&description=Java%20RestFull%20API%20Criada%20para%20Santander%20Dev%20Week%202024&packageName=me.dio&dependencies=web,data-jpa,h2,postgresql
