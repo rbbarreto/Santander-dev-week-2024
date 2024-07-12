@@ -2,7 +2,8 @@
 Java RESFull API Criando para santander dev Week 
 
 ## Diagrama de classes 
-´´´Mermaid
+
+``` Mermaid
 classDiagram
     class User {
         - String name
@@ -38,4 +39,4 @@ classDiagram
     User --> Feature
     User --> Car
     User --> New
-   ´´´
+   ```
