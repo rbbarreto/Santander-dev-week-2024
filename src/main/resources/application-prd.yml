@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-im-view: false
+    hibernate:
+      ddl-auto: validate # com e a primeira vez precisa fica como "create", Depois que criar as tabela deixaremos em "validate"

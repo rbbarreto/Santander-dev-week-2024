@@ -20,7 +20,7 @@ public class User {
     private Card card;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<Feature> features;
+    private List<Features> features;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<News> news;
@@ -42,6 +42,14 @@ public class User {
     public void setCard(Card card) { this.card = card; }
 
 
+    public List<Features> getFeatures() {return features; }
+
+    public void setFeatures(List<Features> features) { this.features = features; }
+
+    public List<News> getNews() { return news; }
+
+    public void setNews(List<News> news) { this.news = news;
+    }
 }
 
 
