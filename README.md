@@ -35,8 +35,8 @@ classDiagram
         - String description
     }
 
-    User --> Account
-    User --> Feature
-    User --> Car
-    User --> New
+    User "1" *-- "1" Account
+    User "1" *-- "N" Feature
+    User "1" *-- "1" Car
+    User "1" *-- "N" New
    ```
